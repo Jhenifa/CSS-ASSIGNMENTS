@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+body {
+    min-height: 100vh;
+    background: url("./Assets/bg-aurora.png") no-repeat center center;
+    background-size: cover;
+    -webkit-font-smoothing: antialiased;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navList {
+    display: flex;
+    gap: 20px;
+    /* align-items: center; */
+}
+.navList li {
+    list-style: none;
+    color: black;
+    
+}
+a {
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+.button {
+    color: white;
+    background-color: #005ae2;;
+    border-radius: 18px;
+    padding: 15px 42px;
+    margin-right: 50px;
+}
+.color {
+    color: #005ae2;
+    font-weight: 800;
+}
+.heroSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1600px;
+}
+.firstContainer{
+    margin-top: 8rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+.secondText {
+    margin-left: 50px;
+}
+.stroke {
+    /* margin-left: 250px; */
+    top: 55%;
+    left: 45%;
+    position: absolute;
+}
+.secondContainer {
+    font-size: 1.25rem;
+  text-align: center;
+  line-height: 1.8rem;
+  max-width: 52%;
+  margin: 0.6rem 0;
+}

@@ -1,0 +1,29 @@
+.container {
+    background-color: #202020;
+    padding: 100px;
+    margin: auto;
+    width: 500px;
+  }
+
+.innerContainer {
+    background-color: #fbfbfb;
+    padding: 50px 30px 15px 30px;
+    border-radius: 7px;
+    width: 300px;
+    margin: auto;
+}
+
+.otter {
+    background-color: #fc0094;
+    border-radius: 5px;
+    padding: 15px;
+    width: 270px;
+    text-align: center;
+    top: 70px;
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
